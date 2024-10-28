@@ -1,0 +1,50 @@
+2021C2	Adjust The Presentation (Hard Version)		1900
+2020C	Bitwise Balancing		1400
+2018B	Speedbreaker		1900
+2018A	Cards Partition		1600
+2009C	The Legend of Freya the Frog		1100
+2008E	Alternating String		1500
+2005E1	Subtangle Game (Easy Version)		2100
+2005C	Lazy Narek		1800
+2004D	Colored Portals		1600
+2003D2	Turtle and a MEX Problem (Hard Version)		2100
+2001D	Longest Max Min Subsequence		1900
+2000F	Color Rows and Columns		1900
+2000D	Right Left Wrong		1200
+1999E	Triple Operations		1300
+1999D	Slavic's Exam		1100
+1999B	Card Game		1000
+1998C	Perform Operations to Maximize Score		1900
+1996E	Decode		1600
+1995C	Squaring		1800
+1993C	Light Switches		1400
+1992E	Novice's Mistake		1700
+1992D	Test of Love		1200
+1990D	Grid Puzzle		1800
+1988B	Make Majority		900
+1988A	Split the Multiset		900
+1986D	Mathematical Problem		1400
+1985H1	Maximize the Largest Component (Easy Version)		1700
+1985D	Manhattan Circle		900
+1984D	''a'' String Problem		2000
+1984B	Large Addition		1100
+1983C	Have Your Cake and Eat It Too		1400
+1983B	Corner Twist		1200
+1982D	Beauty of the mountains		1700
+1982B	Collatz Conjecture		1200
+1981C	Turtle and an Incomplete Sequence		1800
+1980E	Permutation of Rows and Columns		1600
+1980D	GCD-sequence		1400
+1978E	Computing Machine		2000
+1978D	Elections		1600
+1978C	Manhattan Permutations		1300
+1976D	Invertible Bracket Sequences		2000
+1976C	Job Interview		1600
+1976B	Increase/Decrease/Copy		1100
+1975E	Chain Queries		2100
+1974F	Cutting Game		1900
+1974D	Ingenuity-2		1400
+1973C	Cat, Fox and Double Maximum		1700
+1973A	Chess For Three		900
+1971F	Circle Perimeter		1600
+1971D	Binary Cut		1100

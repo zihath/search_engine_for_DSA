@@ -1,0 +1,250 @@
+SUMTRIAN
+Sums in a Triangle
+46500
+869
+-
+COINS
+Bytelandian gold coins
+37785
+944
+-
+NAME2
+Your Name is Mine
+24913
+1285
+MAY13
+ALTARAY
+Alternating subarray prefix
+30947
+1408
+COOK68
+PLAYFIT
+Fit to Play
+19835
+1419
+APRIL12
+A1
+Paying up
+8377
+1539
+MARCH09
+MAXCOMP
+Event Organizer
+9364
+1611
+OCT12
+BINARYSUB
+Binary Substituition
+13029
+1630
+OCT221
+PANSTACK
+Stacking Pancakes
+6242
+1679
+APRIL12
+POGOSTCK
+Pogo Stick Competition
+7109
+1685
+LTIME70
+GRID
+Sherlock and the Grid
+9696
+1693
+COOK50
+WEIRDSUBARR
+Weird Subarrays
+9609
+1739
+START61
+CNPIIM
+Counting Matrices
+5448
+1749
+APRIL14
+CHRL2
+Chef and String
+8119
+1751
+LTIME08
+DISJOINTSUB
+Disjoint Non-Decreasing Array
+6223
+1754
+START128
+SUMQ
+Triplets
+6396
+1772
+JUNE17
+LUNCHTIM
+Lunchtime
+11165
+1773
+LTIME94
+TAAPLUSB
+A Plus B Again!
+3600
+1796
+COOK36
+LEEXAMS
+Little Elephant and Exams
+3535
+1810
+SEPT13
+ADJXOR2
+Adjacent Xors
+6190
+1827
+START51
+MINVOTE
+Minions and Voting
+7668
+1830
+MARCH18
+CHEFSOC2
+Chef and Big Soccer
+5906
+1836
+MAY16
+ASTRGAME
+A String Game
+2348
+1839
+DEC10
+H1
+A puzzle game
+4897
+1848
+OCT09
+TFALL
+Double Trouble
+4096
+1853
+START137
+REIGN
+Reign
+4047
+1855
+DEC13
+BUCKETS
+Choosing from Buckets
+1129
+1871
+LTIME67
+J2
+The LCS Problem Revisited
+621
+1872
+NOV09
+B5
+Squash the Bugs
+215
+1881
+APRIL09
+BOGOSORT
+Bogosort
+1809
+1884
+FEB11
+CHESSGM
+Chess Pushing Game
+1695
+1892
+JAN11
+POSSPEW
+Positive Spewing
+3959
+1892
+START11
+RBFLOWERS
+Red Blue Flowers
+4788
+1936
+START61
+SUB7NUM
+Subsequence-Numbers Divisible by 7
+3359
+1943
+MAY222
+OMAX
+Omax
+1966
+1949
+MARCH11
+STDYTAB
+Steady tables
+2128
+1949
+JUNE15
+DDISH
+Delicious Dishes
+2524
+1951
+NOV12
+DIAMOND
+Need More Diamonds
+2694
+1958
+OCT12
+G1
+A Bowling Game
+1542
+1963
+SEP09
+G2
+Smart Frog
+348
+1963
+SEP09
+NSA
+No Strings Attached
+2739
+1970
+JULY18
+PREPARE
+Preparing Dishes
+1673
+1971
+COOK05
+HBEAR
+The Hungry Bear
+160
+1979
+DEC10
+TOOLS
+Fetching Cooking Tools
+1800
+1987
+COOK02
+SUB12OP
+Subtract 12 Operation
+2984
+1991
+LTIME111
+CHEFMGX
+Chef and Magical Steps
+2904
+2004
+START16
+CARRAY
+Chef and Line
+3266
+2005
+COOK91
+LWS
+Longest Weird Subsequence
+2018
+2011
+MARCH12
+ROPASCI
+Rock Paper Scissors
+3436
+2013
+DEC21
+LUCKY2
+Lucky Number
+595
+2015
+MARCH12

@@ -1,0 +1,20 @@
+2020B	Brightness Begins		1200
+2018B	Speedbreaker		1900
+2014C	Robin Hood in Town		1100
+2013D	Minimize the Difference		1900
+2009G1	Yunli's Subarray Queries (easy version)		1900
+2009E	Klee's SUPER DUPER LARGE Array!!!		1400
+2008H	Sakurako's Test		2100
+2008G	Sakurako's Task		1800
+2004D	Colored Portals		1600
+2001C	Guess The Tree		1500
+2000G	Call During the Journey		2100
+1999G2	Ruler (hard version)		1700
+1999G1	Ruler (easy version)		1500
+1998C	Perform Operations to Maximize Score		1900
+1997D	Maximize the Root		1500
+1996F	Bomb		1900
+1996D	Fun		1500
+1995B2	Bouquet (Hard Version)		1700
+1995B1	Bouquet (Easy Version)		1100
+1994C	Hungry Games		1600

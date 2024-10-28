@@ -1,0 +1,50 @@
+2020E	Expected Power		2000
+2020D	Connect the Dots		1800
+2018B	Speedbreaker		1900
+2014F	Sheriff's Defense		2000
+2008E	Alternating String		1500
+2008D	Sakurako's Hobby		1100
+2005E1	Subtangle Game (Easy Version)		2100
+2005C	Lazy Narek		1800
+2003D2	Turtle and a MEX Problem (Hard Version)		2100
+2000F	Color Rows and Columns		1900
+1999E	Triple Operations		1300
+1998D	Determine Winning Islands in Race		2100
+1997D	Maximize the Root		1500
+1996C	Sort		1200
+1994C	Hungry Games		1600
+1992G	Ultra-Meow		2000
+1992F	Valuable Cards		1900
+1992D	Test of Love		1200
+1990D	Grid Puzzle		1800
+1989D	Smithing Skill		1900
+1988D	The Omnipotent Monster Killer		2000
+1987D	World is Mine		1800
+1987C	Basil's Garden		1200
+1986D	Mathematical Problem		1400
+1984C2	Magnitude (Hard Version)		1700
+1984C1	Magnitude (Easy Version)		1300
+1982C	Boring Day		1200
+1979D	Fixing a Binary String		1800
+1978E	Computing Machine		2000
+1977C	Nikita and LCM		1900
+1976C	Job Interview		1600
+1975D	Paint the Tree		1700
+1974E	Money Buys Happiness		1800
+1971D	Binary Cut		1100
+1970E2	Trails (Medium)		2000
+1970E1	Trails (Easy)		1800
+1970C3	Game on Tree (Hard)		1900
+1970C2	Game on Tree (Medium)		1700
+1969C	Minimizing the Sum		1700
+1968G1	Division + LCP (easy version)		1900
+1958A	1-3-5		1100
+1957D	A BIT of an Inequality		1900
+1957C	How Does the Rook Move?		1600
+1956D	Nene and the Mex Operator		2000
+1955G	GCD on a grid		1900
+1955F	Unfair Game		1800
+1954D	Colored Balls		1800
+1950G	Shuffling Songs		1900
+1950D	Product of Binary Decimals		1100
+1949C	Annual Ants' Gathering		1900

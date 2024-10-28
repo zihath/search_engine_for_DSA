@@ -1,0 +1,352 @@
+[
+    {
+        "title": "Adjust The Presentation (Hard Version)",
+        "link": "https://codeforces.com/problemset/problem/2021/C2",
+        "tags": "Implemenation",
+        "difficulty": "1900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Bitwise Balancing",
+        "link": "https://codeforces.com/problemset/problem/2020/C",
+        "tags": "Implemenation",
+        "difficulty": "1400",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Speedbreaker",
+        "link": "https://codeforces.com/problemset/problem/2018/B",
+        "tags": "Implemenation",
+        "difficulty": "1900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Cards Partition",
+        "link": "https://codeforces.com/problemset/problem/2018/A",
+        "tags": "Implemenation",
+        "difficulty": "1600",
+        "platform": "codeforces"
+    },
+    {
+        "title": "The Legend of Freya the Frog",
+        "link": "https://codeforces.com/problemset/problem/2009/C",
+        "tags": "Implemenation",
+        "difficulty": "1100",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Alternating String",
+        "link": "https://codeforces.com/problemset/problem/2008/E",
+        "tags": "Implemenation",
+        "difficulty": "1500",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Subtangle Game (Easy Version)",
+        "link": "https://codeforces.com/problemset/problem/2005/E1",
+        "tags": "Implemenation",
+        "difficulty": "2100",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Lazy Narek",
+        "link": "https://codeforces.com/problemset/problem/2005/C",
+        "tags": "Implemenation",
+        "difficulty": "1800",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Colored Portals",
+        "link": "https://codeforces.com/problemset/problem/2004/D",
+        "tags": "Implemenation",
+        "difficulty": "1600",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Turtle and a MEX Problem (Hard Version)",
+        "link": "https://codeforces.com/problemset/problem/2003/D2",
+        "tags": "Implemenation",
+        "difficulty": "2100",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Longest Max Min Subsequence",
+        "link": "https://codeforces.com/problemset/problem/2001/D",
+        "tags": "Implemenation",
+        "difficulty": "1900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Color Rows and Columns",
+        "link": "https://codeforces.com/problemset/problem/2000/F",
+        "tags": "Implemenation",
+        "difficulty": "1900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Right Left Wrong",
+        "link": "https://codeforces.com/problemset/problem/2000/D",
+        "tags": "Implemenation",
+        "difficulty": "1200",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Triple Operations",
+        "link": "https://codeforces.com/problemset/problem/1999/E",
+        "tags": "Implemenation",
+        "difficulty": "1300",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Slavic's Exam",
+        "link": "https://codeforces.com/problemset/problem/1999/D",
+        "tags": "Implemenation",
+        "difficulty": "1100",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Card Game",
+        "link": "https://codeforces.com/problemset/problem/1999/B",
+        "tags": "Implemenation",
+        "difficulty": "1000",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Perform Operations to Maximize Score",
+        "link": "https://codeforces.com/problemset/problem/1998/C",
+        "tags": "Implemenation",
+        "difficulty": "1900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Decode",
+        "link": "https://codeforces.com/problemset/problem/1996/E",
+        "tags": "Implemenation",
+        "difficulty": "1600",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Squaring",
+        "link": "https://codeforces.com/problemset/problem/1995/C",
+        "tags": "Implemenation",
+        "difficulty": "1800",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Light Switches",
+        "link": "https://codeforces.com/problemset/problem/1993/C",
+        "tags": "Implemenation",
+        "difficulty": "1400",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Novice's Mistake",
+        "link": "https://codeforces.com/problemset/problem/1992/E",
+        "tags": "Implemenation",
+        "difficulty": "1700",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Test of Love",
+        "link": "https://codeforces.com/problemset/problem/1992/D",
+        "tags": "Implemenation",
+        "difficulty": "1200",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Grid Puzzle",
+        "link": "https://codeforces.com/problemset/problem/1990/D",
+        "tags": "Implemenation",
+        "difficulty": "1800",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Make Majority",
+        "link": "https://codeforces.com/problemset/problem/1988/B",
+        "tags": "Implemenation",
+        "difficulty": "900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Split the Multiset",
+        "link": "https://codeforces.com/problemset/problem/1988/A",
+        "tags": "Implemenation",
+        "difficulty": "900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Mathematical Problem",
+        "link": "https://codeforces.com/problemset/problem/1986/D",
+        "tags": "Implemenation",
+        "difficulty": "1400",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Maximize the Largest Component (Easy Version)",
+        "link": "https://codeforces.com/problemset/problem/1985/H1",
+        "tags": "Implemenation",
+        "difficulty": "1700",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Manhattan Circle",
+        "link": "https://codeforces.com/problemset/problem/1985/D",
+        "tags": "Implemenation",
+        "difficulty": "900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "''a'' String Problem",
+        "link": "https://codeforces.com/problemset/problem/1984/D",
+        "tags": "Implemenation",
+        "difficulty": "2000",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Large Addition",
+        "link": "https://codeforces.com/problemset/problem/1984/B",
+        "tags": "Implemenation",
+        "difficulty": "1100",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Have Your Cake and Eat It Too",
+        "link": "https://codeforces.com/problemset/problem/1983/C",
+        "tags": "Implemenation",
+        "difficulty": "1400",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Corner Twist",
+        "link": "https://codeforces.com/problemset/problem/1983/B",
+        "tags": "Implemenation",
+        "difficulty": "1200",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Beauty of the mountains",
+        "link": "https://codeforces.com/problemset/problem/1982/D",
+        "tags": "Implemenation",
+        "difficulty": "1700",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Collatz Conjecture",
+        "link": "https://codeforces.com/problemset/problem/1982/B",
+        "tags": "Implemenation",
+        "difficulty": "1200",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Turtle and an Incomplete Sequence",
+        "link": "https://codeforces.com/problemset/problem/1981/C",
+        "tags": "Implemenation",
+        "difficulty": "1800",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Permutation of Rows and Columns",
+        "link": "https://codeforces.com/problemset/problem/1980/E",
+        "tags": "Implemenation",
+        "difficulty": "1600",
+        "platform": "codeforces"
+    },
+    {
+        "title": "GCD-sequence",
+        "link": "https://codeforces.com/problemset/problem/1980/D",
+        "tags": "Implemenation",
+        "difficulty": "1400",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Computing Machine",
+        "link": "https://codeforces.com/problemset/problem/1978/E",
+        "tags": "Implemenation",
+        "difficulty": "2000",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Elections",
+        "link": "https://codeforces.com/problemset/problem/1978/D",
+        "tags": "Implemenation",
+        "difficulty": "1600",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Manhattan Permutations",
+        "link": "https://codeforces.com/problemset/problem/1978/C",
+        "tags": "Implemenation",
+        "difficulty": "1300",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Invertible Bracket Sequences",
+        "link": "https://codeforces.com/problemset/problem/1976/D",
+        "tags": "Implemenation",
+        "difficulty": "2000",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Job Interview",
+        "link": "https://codeforces.com/problemset/problem/1976/C",
+        "tags": "Implemenation",
+        "difficulty": "1600",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Increase/Decrease/Copy",
+        "link": "https://codeforces.com/problemset/problem/1976/B",
+        "tags": "Implemenation",
+        "difficulty": "1100",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Chain Queries",
+        "link": "https://codeforces.com/problemset/problem/1975/E",
+        "tags": "Implemenation",
+        "difficulty": "2100",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Cutting Game",
+        "link": "https://codeforces.com/problemset/problem/1974/F",
+        "tags": "Implemenation",
+        "difficulty": "1900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Ingenuity-2",
+        "link": "https://codeforces.com/problemset/problem/1974/D",
+        "tags": "Implemenation",
+        "difficulty": "1400",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Cat, Fox and Double Maximum",
+        "link": "https://codeforces.com/problemset/problem/1973/C",
+        "tags": "Implemenation",
+        "difficulty": "1700",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Chess For Three",
+        "link": "https://codeforces.com/problemset/problem/1973/A",
+        "tags": "Implemenation",
+        "difficulty": "900",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Circle Perimeter",
+        "link": "https://codeforces.com/problemset/problem/1971/F",
+        "tags": "Implemenation",
+        "difficulty": "1600",
+        "platform": "codeforces"
+    },
+    {
+        "title": "Binary Cut",
+        "link": "https://codeforces.com/problemset/problem/1971/D",
+        "tags": "Implemenation",
+        "difficulty": "1100",
+        "platform": "codeforces"
+    }
+]
