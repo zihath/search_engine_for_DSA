@@ -1,102 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown with Checkboxes</title>
-    <style>
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            width: 200px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            cursor: pointer;
-            user-select: none;
-            text-align: center;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 200px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            z-index: 1;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .dropdown-content label {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .dropdown-content input[type="checkbox"] {
-            margin-right: 8px;
-        }
-
-        .submit-button {
-            margin-top: 15px;
-            padding: 8px 16px;
-            cursor: pointer;
-            border: none;
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="dropdown" onclick="toggleDropdown()">
-    Select Tags
-    <div class="dropdown-content" id="checkboxDropdown">
-        <label><input type="checkbox" value="tag1"> Tag 1</label>
-        <label><input type="checkbox" value="tag2"> Tag 2</label>
-        <label><input type="checkbox" value="tag3"> Tag 3</label>
-        <label><input type="checkbox" value="tag4"> Tag 4</label>
-        <label><input type="checkbox" value="tag5"> Tag 5</label>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Engine</title>
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+  </head>
+  <body>
+    <h1>Search Engine</h1>
+    <button id="toggleButton">Show/Hide Checkboxes</button>
+    <div id="checkboxList" style="display: none;">
+        <input type="checkbox"> Option 1<br>
+        <input type="checkbox"> Option 2<br>
+        <input type="checkbox"> Option 3<br>
     </div>
-</div>
-
-<!-- Separate Submit Button -->
-<button class="submit-button" onclick="submitSelection()">Submit</button>
-
-<script>
-    function toggleDropdown() {
-        const dropdownContent = document.getElementById("checkboxDropdown");
-        dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
-    }
-
-    // Prevent the dropdown from closing when clicking inside it
-    document.querySelector('.dropdown-content').addEventListener('click', function(event) {
-        event.stopPropagation();
-    });
-
-    // Close the dropdown if clicked outside
-    window.onclick = function(event) {
-        const dropdownContent = document.getElementById("checkboxDropdown");
-        if (!event.target.closest('.dropdown')) {
-            dropdownContent.style.display = "none";
-        }
-    }
-
-    // Function to handle the submit action
-    function submitSelection() {
-        const checkboxes = document.querySelectorAll('.dropdown-content input[type="checkbox"]');
-        const selected = [];
-        checkboxes.forEach(checkbox => {
-            if (checkbox.checked) {
-                selected.push(checkbox.value);
-            }
-        });
-        alert("Selected tags: " + selected.join(", "));
-        // You can execute additional logic here with the selected checkboxes
-    }
-</script>
-
-</body>
-</html>
+  
+  </body>
+    
