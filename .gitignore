@@ -1,0 +1,7 @@
+# Ignore the folder named 'folder_name'
+dataset/
+
+# Ignore all .log files
+*.log
+
+
