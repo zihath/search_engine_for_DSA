@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Problems by Topic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <a href="/" class="home-icon"> <i class="fa-solid fa-code"></i></a>
+    <h1>Solve Problem By Topics</h1>
+    <!-- Tag buttons -->
+    <button onclick="window.location.href='/problems_by_tag?tag=dynamic programming'">Dynamic Programming</button>
+    <button onclick="window.location.href='/problems_by_tag?tag=greedy'">Greedy</button>
+    <button onclick="window.location.href='/problems_by_tag?tag=binary search'">binary search</button>
+    <button onclick="window.location.href='/problems_by_tag?tag=Implemenation'">Implemenation</button>
+    <!-- Add more buttons for other tags as needed -->
+</body>
+</html>

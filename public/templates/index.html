@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSA Search Engine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 
 </head>
 <body>
+    <a href="/" class="home-icon"> <i class="fa-solid fa-code"></i></a>
     <div class="container">
         <h1>DSA Problem Search Engine</h1>
-        <form method="POST">
+        <form action = "/index" method ="POST">
             <input type="text" name="query" placeholder="Search for DSA problems..." required>
             <button type="submit">Search</button>
         </form>
 
-        <button style = "float: right; margin:1%"onclick="toggleFilter1()">Tag Filters</button>
-        <button style = "float: right; margin:1%" onclick="toggleFilter2()">Platform Filters</button>
+        <button id="toggleButton1" style="float: right; margin:2%" onclick="toggleFilter('filterContainer1', 'toggleButton1')">Tag Filters</button>
+        
+        <button id="toggleButton2" style="float: right; margin:2%" onclick="toggleFilter('filterContainer2', 'toggleButton2')">Platform Filters</button>
 
-        <div id="filterContainer1">
+        <div id="filterContainer1" style="display: none; border: 1px solid #ccc; padding: 10px; position: absolute;">
             <form id="filterFormTag">
                 <label><input type="checkbox" name="tag" value="greedy" onchange="filterTags()"> Greedy</label>
                 <label><input type="checkbox" name="tag" value="dynamic programming" onchange="filterTags()"> DP</label>
                 <label><input type="checkbox" name="tag" value="binary search" onchange="filterTags()"> Binary Search</label>
-                <label><input type="checkbox" name="tag" value="Implemenation" onchange="filterTags()"> implementation </label>
+                <label><input type="checkbox" name="tag" value="Implemenation" onchange="filterTags()"> Implementation</label>
             </form>
         </div>
 
-        <div id="filterContainer2">
+
+        <div id="filterContainer2" style="display: none; border: 1px solid #ccc; padding: 10px; position: absolute;">
+
             <form id="filterFormPlat">
                 <label><input type="checkbox" name="platform" value="leetcode" onchange="filterplatforms()"> LeetCode </label>
                 <label><input type="checkbox" name="platform" value="codeforces" onchange="filterplatforms()"> CodeForces </label>

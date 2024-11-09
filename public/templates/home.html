@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page mame</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <a href="/" class="home-icon"> <i class="fa-solid fa-code"></i></a>
+    <h1>Home Page mame</h1>
+    <button onclick="redirectToIndex()">Go to Search Page</button>
+    <button onclick="redirectToAll()">Go to All Problem Page</button>
+  <script>
+    function redirectToIndex() {
+      window.location.href = "/index";
+    }
+
+    function redirectToAll(){
+        window.location.href = "/all";
+    }
+  </script>
+</body>
+</html>

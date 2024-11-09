@@ -51,7 +51,35 @@ def search_problems(query, n=20):
 
 app = Flask(__name__)
 
+
 @app.route("/", methods=["GET", "POST"])
+def home():
+    return render_template("home.html")
+
+@app.route("/all", methods=["GET", "POST"])
+def all():
+    return render_template("all_problem.html")
+
+@app.route("/problems_by_tag", methods=["GET"])
+def problems_by_tag():
+    # Get the selected tag from query parameters
+    tag = request.args.get('tag')
+    
+    # Retrieve problems with the specified tag from MongoDB collection
+    problems = list(collection.find({"tags": tag}))
+
+    # Ensure tags are in list format
+    for problem in problems:
+        if isinstance(problem['tags'], str):
+            problem['tags'] = problem['tags'].split(",")  # Convert comma-separated string to list
+    
+    # Render the results in a new template
+    return render_template("problems_by_tag.html", problems=problems, tag=tag)
+
+
+
+
+@app.route("/index", methods=["GET", "POST"])
 def index():
     relevant_problems = []  # Initialize an empty list
     if request.method == "POST":
@@ -62,8 +90,9 @@ def index():
     return render_template("index.html", query=None, relevant_problems=relevant_problems)
 
 
-# if __name__ == "__main__":
-#     app.run(debug=True)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(debug=True)
+
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0", port=5000, debug=True)
