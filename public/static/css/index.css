@@ -1,0 +1,251 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Home Icon */
+  .home-icon {
+    position: absolute;
+    top: 20px; /* Adjust the distance from the top */
+    left: 20px; /* Adjust the distance from the left */
+    display: inline-block;
+  }
+  
+  .home-icon img {
+    width: 90px; /* Icon width */
+    height: 90px; /* Icon height */
+    transition: filter 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  .home-icon img:hover {
+    filter: brightness(5); /* Increase brightness on hover */
+    transform: scale(1.1); /* Slightly scale up on hover for emphasis */
+  }
+  
+  /* Header */
+  h1 {
+    color: #ffcc00;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  h3{
+    margin: 20px;
+  }
+  
+  /* Form */
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #888;
+  }
+  
+  button[type="submit"], #toggleButton1, #toggleButton2 {
+    background-color: #333;
+    color: #f0f0f0;
+    border: 2px solid #555;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover, #toggleButton1:hover, #toggleButton2:hover {
+    background-color: #ffcc00;
+    border-color: #ff9900;
+    color: #121212;
+  }
+  
+  /* Filter Containers */
+  /* Position Filter Containers on the Right */
+#filterContainer1, #filterContainer2 {
+  display: none;
+  background-color: #333;
+  color: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  position: absolute;
+  right: 10px; /* Position on the right side */
+  z-index: 10;
+  width: 200px; /* Adjust width as needed */
+  max-height: 400px; /* Control max height */
+  overflow-y: auto; /* Scrollable if content exceeds height */
+}
+
+/* Filter Labels */
+#filterContainer1 label, #filterContainer2 label {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; /* Slight rounding for label */
+}
+
+#filterContainer1 label:hover, #filterContainer2 label:hover {
+  background-color: #444; /* Highlight on hover */
+}
+
+/* Custom Checkbox Styling */
+#filterContainer1 input[type="checkbox"],
+#filterContainer2 input[type="checkbox"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #888;
+  border-radius: 4px;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+  background-color: #222;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#filterContainer1 input[type="checkbox"]:checked,
+#filterContainer2 input[type="checkbox"]:checked {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+#filterContainer1 input[type="checkbox"]:checked::after,
+#filterContainer2 input[type="checkbox"]:checked::after {
+  content: "✔";
+  font-size: 12px;
+  color: #121212;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center checkmark inside checkbox */
+}
+
+/* Adjust spacing for smooth layout */
+#filterContainer1 form, #filterContainer2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+#filterContainer1 label, #filterContainer2 label {
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+  
+  /* Table */
+  /* Table */
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: separate; /* Allows rounding of corners */
+  border-spacing: 0; /* Removes gap between cells */
+  border-radius: 10px; /* Rounds the corners */
+  overflow: hidden; /* Ensures the rounded corners apply to the content */
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-right: 3px solid #555; /* Thicker vertical borders */
+}
+
+th {
+  background-color: #444;
+  color: #ffcc00;
+  font-weight: bold;
+  border-top: 3px solid #555; /* Thicker horizontal top border */
+  border-left: 3px solid #555; /* Left border for the table */
+}
+
+td {
+  background-color: #333;
+  border-left: 3px solid #555; /* Left border */
+  color: #f0f0f0;
+}
+
+tr:last-child td {
+  border-bottom: 3px solid #555; /* Bottom border for the table */
+}
+
+th:first-child, td:first-child {
+  border-left: 3px solid #555; /* Thicker left border for the first column */
+}
+
+th:last-child, td:last-child {
+  border-right: none; /* Removes border on the far-right side */
+}
+
+  
+  /* Links */
+  a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff9900;
+  }
+  
+  /* Tags and Platform Cells */
+  .tags-cell, .platform-cell {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+    }
+  
+    button[type="submit"], #toggleButton1, #toggleButton2 {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    #filterContainer1, #filterContainer2 {
+      width: 90%;
+      position: static;
+    }
+  
+    .home-icon {
+      font-size: 1.5rem;
+    }
+  }
+  

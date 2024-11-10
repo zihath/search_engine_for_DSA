@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Problems by Topic</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Problems by Topic</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/all_problem.css') }}">
 </head>
 <body>
-    <a href="/" class="home-icon"> <i class="fa-solid fa-code"></i></a>
-    <h1>Solve Problem By Topics</h1>
-    <!-- Tag buttons -->
-    <button onclick="window.location.href='/problems_by_tag?tag=dynamic programming'">Dynamic Programming</button>
-    <button onclick="window.location.href='/problems_by_tag?tag=greedy'">Greedy</button>
-    <button onclick="window.location.href='/problems_by_tag?tag=binary search'">binary search</button>
-    <button onclick="window.location.href='/problems_by_tag?tag=Implemenation'">Implemenation</button>
-    <!-- Add more buttons for other tags as needed -->
+  <a href="/" class="home-icon">
+    <img src="{{ url_for('static', filename='images/icon.svg') }}" alt="Home Icon">
+  </a>
+  <h1>Solve Problems by Topic</h1>
+  <ul>
+    {% for name in my_list %}
+    <button onclick="window.location.href='/problems_by_tag?tag={{name}}'">{{name}}</button>
+    {% endfor %}
+
+</ul>
 </body>
 </html>

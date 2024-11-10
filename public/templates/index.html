@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSA Search Engine</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 
 </head>
 <body>
-    <a href="/" class="home-icon"> <i class="fa-solid fa-code"></i></a>
+    <a href="/" class="home-icon">
+        <img src="{{ url_for('static', filename='images/icon.svg') }}" alt="Home Icon">
+    </a>
     <div class="container">
         <h1>DSA Problem Search Engine</h1>
         <form action = "/index" method ="POST">
@@ -24,10 +26,20 @@
 
         <div id="filterContainer1" style="display: none; border: 1px solid #ccc; padding: 10px; position: absolute;">
             <form id="filterFormTag">
+                <label><input type="checkbox" name="tag" value="array" onchange="filterTags()"> Array</label>
+                <label><input type="checkbox" name="tag" value="bfs" onchange="filterTags()"> BFS</label>
                 <label><input type="checkbox" name="tag" value="greedy" onchange="filterTags()"> Greedy</label>
                 <label><input type="checkbox" name="tag" value="dynamic programming" onchange="filterTags()"> DP</label>
                 <label><input type="checkbox" name="tag" value="binary search" onchange="filterTags()"> Binary Search</label>
                 <label><input type="checkbox" name="tag" value="Implemenation" onchange="filterTags()"> Implementation</label>
+                <label><input type="checkbox" name="tag" value="bit manupilation" onchange="filterTags()">bit manupilation</label>
+                <label><input type="checkbox" name="tag" value="dfs" onchange="filterTags()">DFS</label>
+                <label><input type="checkbox" name="tag" value="graph" onchange="filterTags()">graph</label>
+                <label><input type="checkbox" name="tag" value="stack" onchange="filterTags()">stack</label>
+                <label><input type="checkbox" name="tag" value="linked list" onchange="filterTags()">linked list</label>
+                <label><input type="checkbox" name="tag" value="trees" onchange="filterTags()">Trees</label>
+                <label><input type="checkbox" name="tag" value="sorting" onchange="filterTags()">Sorting</label>
+                <label><input type="checkbox" name="tag" value="two pointers" onchange="filterTags()">Two pointers</label>
             </form>
         </div>
 
@@ -45,7 +57,7 @@
         
 
         {% if query %}
-            <h2>Search Results for: "{{ query }}"</h2>
+            <h3>Search Results for: "{{ query }}"</h3>
             <table id = "problemTable">
                 <thead>
                     <tr>

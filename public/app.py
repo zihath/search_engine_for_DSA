@@ -6,7 +6,7 @@ uri = "mongodb+srv://zihath04:samz04@cluster0.tmx5z.mongodb.net/"
 client = MongoClient(uri)
 
 # Access your specific database and collection
-db = client['cloud_search']
+db = client['search_engine']
 
 collection = db['problems']
 
@@ -22,7 +22,7 @@ tfidf_matrix = vectorizer.fit_transform(titles)
 
 document_ids = [doc['_id'] for doc in collection.find({})]
 
-def search_problems(query, n=20):
+def search_problems(query, n=50):
     # Transform the query into a TF-IDF vector
     query_vector = vectorizer.transform([query])
     
@@ -47,7 +47,7 @@ def search_problems(query, n=20):
 
 
 
-
+my_list = [ 'array', 'binary search' ,  'greedy' , 'dynamic programming' , 'graph' , 'trees' , 'bfs' , 'dfs' , 'bit manupilation' , 'heap' , 'implementation' , 'linked list' , 'sorting' , 'stack' , 'string' , 'ternery search' , 'two pointers' , 'sliding window' , 'combinatorics' , 'divide and conquer']
 
 app = Flask(__name__)
 
@@ -58,7 +58,8 @@ def home():
 
 @app.route("/all", methods=["GET", "POST"])
 def all():
-    return render_template("all_problem.html")
+    
+    return render_template("all_problem.html" , my_list = my_list)
 
 @app.route("/problems_by_tag", methods=["GET"])
 def problems_by_tag():
@@ -91,8 +92,8 @@ def index():
 
 
 
-# if __name__ == "__main__":
-#     app.run(debug=True)
-
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(debug=True)
+
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0", port=5000, debug=True)
